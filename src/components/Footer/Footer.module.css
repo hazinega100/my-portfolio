@@ -1,0 +1,15 @@
+.footer {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 320px) {
+    .footer {
+        width: 300px;
+        padding-bottom: 20px;
+    }
+}

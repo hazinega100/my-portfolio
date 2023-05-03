@@ -1,0 +1,21 @@
+.ContactsWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ContactsInput {
+
+}
+
+.ContactsTextAria {
+    width: 100%;
+}
+
+@media (max-width: 320px) {
+    .ContactsWrapper {
+        text-align: center;
+    }
+    .ContactsInput {
+        width: 100%;
+    }
+}

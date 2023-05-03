@@ -1,0 +1,12 @@
+.skillsWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 320px) {
+    .skillsWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

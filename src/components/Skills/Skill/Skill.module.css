@@ -1,0 +1,26 @@
+.skillWrapper {
+    text-align: center;
+}
+
+.skillImg {
+    height: 150px;
+}
+
+.skillTitle {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skillSubtitle {
+    margin-top: 20px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+@media (max-width: 320px) {
+    .skillWrapper {
+        align-items: center;
+    }
+}

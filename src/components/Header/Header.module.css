@@ -1,0 +1,35 @@
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.header {
+    background-color: darkred;
+}
+
+.headerList {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerItem {
+    margin: 0 20px 0 20px;
+}
+
+.headerLink {
+    font-size: 22px;
+    color: white;
+}
+
+@media (max-width: 320px) {
+    .headerLink {
+        font-size: 14px;
+    }
+    .headerList {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}

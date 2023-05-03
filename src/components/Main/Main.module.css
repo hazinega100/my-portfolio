@@ -1,0 +1,37 @@
+.main {
+    margin-top: 100px;
+}
+
+.mainWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainItem {
+
+}
+
+.mainItemDescr {
+    margin: 5px;
+}
+
+.mainImg {
+    height: 400px;
+}
+
+@media (max-width: 320px) {
+    .main {
+        margin-top: 50px;
+    }
+    .mainWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mainImg {
+        margin-top: 50px;
+        height: 300px;
+    }
+}
